@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login Borton</title>
+</head>
+<link rel="stylesheet">
+     <form action="https://www.savatarian.com/html5/form.php" method="get" href="https://fonts.googleapis.com/css?family=Source SansPro + Light300italic">
+<style>
+  body {
+      font-family: Sans Pro, Light300italic,serif;
+      font-size: 22px;
+  }
+  form ul {
+      list-style-type: none;
+      padding : 0;
+  }
+  form ul li {
+      padding : 10px;
+  }
+  form ul li input {
+      position: absolute;
+      left:200px;
+  }
+  .lekker-eten{
+      position: relative;
+    left: 800px;
+      margin-top: -320px;
+  }
+  .buttons {
+      position: relative;
+      left: 800px;
+      margin-top: 400px;
+  }
+  .submit {
+      position: relative;
+      left: 900px;
+      margin-top: -28px;
+  }
+  </style>
+         <ul>
+             <li>
+                 <h2><strong>Burton Education</strong></h2>
+             </li>
+             <li>
+                 <label for="voornaam">voornaam</label>
+                 <input type="text" name="voornaam" id="voornaam" />
+             </li>
+             <li>
+                 <label for="tussenvoegsel">tussenvoegsel</label>
+                 <input type="text" name="tussenvoegsel" id="tussenvoegsel" />
+             </li>
+             <li>
+                 <label for="achternaam">achternaam</label>
+                 <input type="text" name="achternaam" id="achternaam" />
+             </li>
+             <li>
+                 <label>geslacht</label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+                 <label style="display:inline" for="male"> Man </label> &nbsp; &nbsp;
+                 <input style="display:inline" type="radio" id="male" name="gender" value="male">
+                 <label style="display:inline" for="female">Vrouw</label>
+                 <input style="display:inline; left:270px" type="radio" id="female" name="gender" value="female">
+
+             </li>
+             <li>
+                 <label for="kleurogen" id ="kleurogen">kleurogen</label>
+                 <label>
+                     <select style="position: absolute; left: 200px; width: 170px" name="kleurogen">
+                         <option>groen</option>
+                         <option>blauw</option>
+                         <option>bruin</option>
+                         <option>grijs</option>
+                     </select>
+                 </label>
+             </li>
+             <li>
+                 <label for="geboortedatum">geboortedatum</label>
+                 <input style="width: 165px;" type="date" name="geboortedatum" id="geboortedatum">
+             </li>
+             <li>
+             <label for="omschrijving">omschrijving</label>
+             <textarea style="position: absolute; left: 200px; height: 150px; width: 400px" name="omschrijving" id="omschrijving"></textarea>
+             </li>
+            <div class ="lekker-eten"> <label for="lekkereten" id="lekkereten">lekkereten: &nbsp; &nbsp;&nbsp;</label>
+                <label for="lekker-eten"></label><input type="checkbox" name="lekker-eten" value="patat" id="lekker-eten">
+            <span class="checkbox">patat</span> <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <label>
+                    <input type="checkbox" name="lekker-eten" value="bruinebonen">
+                </label>
+                <span class="checkbox">sperziebonen</span> <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<label>
+                    <input type="checkbox" name="lekker-eten" value="hamburger">
+                </label>
+                <span class="checkbox">hamburger</span> <br>
+            </div>
+             <div class = "buttons">
+                 <input type='button' onclick='location.reload();' value='Annuleer' />
+             </div>
+             <div class ="submit">
+                <input type="submit" value="submit">
+             </div>
+         </ul>
+         </form>
+</html>
