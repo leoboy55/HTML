@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TrueMusicInstrumentsHomepage</title>
+  <link rel="stylesheet" href="test1.css">
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:400,500,600,700" >
+<body>
+<style>
+  *{
+    box-sizing: border-box;
+  }
+  header{
+    background-color: rgb(192,240,223);
+    text-align: center;
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+  }
+  div#wrapper{
+    background-color: rgb(250,241,234);
+  }
+  img{
+   width: 100%;
+  }
+  ul{
+    padding: 0;
+    margin: 0;
+  }
+  li{
+    background-color: rgb(128,128,128);
+    padding: 10px 10px 10px 20px;
+    border-top: 1px solid white;
+  }
+  li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  @media all and (min-width: 550px) {
+    ul{
+      background-color: grey;
+      border-top: white;
+    }
+    li{
+      display: inline-block;
+      border: none;
+    }
+  }
+  h3{
+    color: rgb(220,106,94);
+    font-size: 25px;
+    font-weight: 600;
+  }
+  img#logo{
+    width: 320px;
+  }
+  section,footer{
+    padding: 20px;
+  }
+  @media all and (min-width: 550px) {
+    section#news {
+      float: left;
+      width: 40%;
+    }
+    section#instruments {
+      float: right;
+      width: 60%;
+    }
+  }
+  @media all and (min-width: 920px) {
+    section#news {
+      float: left;
+      width: 30%;
+    }
+
+    section#instruments {
+      float: right;
+      width: 70%;
+    }
+
+    article {
+      width: 44%;
+      margin-left: 30px;
+      float: right;
+    }
+
+    article:nth-child(even) {
+      margin-right: 0;
+    }
+  }
+  @media all and (min-width: 1200px) {
+div#wrapper {
+  width: 1200px;
+  margin: auto;
+}
+  }
+  footer {
+    background-color: rgb(128,128,128);
+    color: white;
+    clear:both;
+  }
+</style>
+
+<div id="wrapper">
+  <header>
+    <img id="logo" src="truemusic-logo.svg" alt="logo true music">
+  </header>
+  <nav>
+    <ul>
+      <li> <a href="#Drums">Drums</a></li>
+      <li> <a href="#Gitaar">Gitaar</a></li>
+      <li> <a href="#Saxafoon">Saxafoon</a></li>
+      <li> <a href="#Trompet">Trompet</a></li>
+      <li> <a href="#Contact">Contact</a></li>
+    </ul>
+  </nav>
+  <section id="news">
+    <h3>Nieuws</h3>
+    <p>is slechts een proeftekst uit het drukkerij- en zetterijwezen.
+    Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw,
+    toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde om een font-catalogus te maken.
+    Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting.
+    Het is in de jaren '60 populair geworden met de introductie van Letraset vellen met Lorem Ipsum passages en
+      meer recentelijk door desktop publishing software zoals Aldus PageMaker die versies van Lorem Ipsum bevatten.</p>
+  </section>
+  <section id="instruments">
+    <article id="Drums">
+      <h3>Drums</h3>
+      <img src="drums.jpg" alt="drums afbeelding">
+      <p>Ik ben makelaar in koffi, en woon op de Lauriergracht No 37.
+      Het is mijn gewoonte niet, romans te schrijven, of zulke dingen, en het heeft dan ook lang geduurd,
+      voor ik er toe overging een paar riem papier extra te bestellen, en het werk aan te vangen,
+      dat gij, lieve lezer, zoâven in de hand hebt genomen, en dat ge lezen moet als ge makelaar in koffie zijt, of als ge wat anders zijt.
+      Niet alleen dat ik nooit iets schreef wat naar een roman geleek, maar ik houd er zelfs niet van,
+        iets dergelijks te lezen, omdat ik een man van zaken ben.</p>
+    </article>
+    <article id="Gitaar">
+      <h3>Gitaar</h3>
+      <img src="gitaar.jpg" alt="gitaar afbeelding">
+      <p>Sedert jaren vraag ik mij af, waartoe zulke dingen dienen, en ik sta verbaasd over de onbeschaamdheid,
+      waarmee een dichter of romanverteller u iets op de mouw durft spelden, dat nooit gebeurd is,
+      en meestal niet gebeuren kan.Als ik in mijn vak -- ik ben makelaar in koffie, en woon op de Lauriergracht No 37
+      -- aan een principaal -- een principaal is iemand die koffie verkoopt -- een opgave deed,
+      waarin maar een klein gedeelte der onwaarheden voorkwam, die in gedichten en romans de hoofdzaak uitmaken,
+        zou hij terstond Busselinck & Waterman nemen.</p>
+    </article>
+    <article id="Saxafoon">
+      <h3>Saxafoon</h3>
+      <img src="saxofoon.jpg" alt="saxafoon afbeelding">
+      <p>Dat zijn ook makelaars in koffie, doch hun adres behoeft ge niet te weten.
+      Ik pas er dus wel op, dat ik geen romans schrijf, of andere valse opgaven doe.
+      Ik heb dan ook altijd opgemerkt dat mensen die zich met zoiets inlaten, gewoonlijk slecht wegkomen.
+      Ik ben drieënveertig jaar oud, bezoek sedert twintig jaren de beurs, en kan dus voor de dag treden,
+      als men iemand roept die ondervinding heeft. Ik heb al wat huizen zien vallen! En gewoonlijk,
+      wanneer ik de oorzaken naging, kwam het me voor,
+        dat die moesten gezocht worden in de verkeerde richting die aan de meesten gegeven was in hun jeugd. </p>
+    </article>
+    <article id="Trompet">
+      <h3>Trompet</h3>
+      <img src="trompet.jpg" alt="trompet afbeelding">
+     <p>Ik zeg: waarheid en gezond verstand, en hier blijf ik bij. Voor de Schrift maak ik natuurlijk een uitzondering.
+      De fout begint al van Van Alphen af, en wel terstond bij de eerste regel over die `lieve wichtjes'.
+      Wat drommel kon die oude heer bewegen, zich uit te geven voor een aanbidder van mijn zusje Truitje die zere ogen had,
+      of van mijn broer Gerrit die altijd met zijn neus speelde?
+      En toch, hij zegt: `dat hij die versjes zong, door liefde gedrongen'. </p>
+    </article>
+  </section>
+  <footer id="Contact">
+   <h3 style="color: white; float: left"> Route info </h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2460.5957984386823!2d4.476767515673398!3d51.92308527970557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c43358888f0e81%3A0x3fee14f19165b581!2sCoolsingel%2022%2C%203012%20AD%20Rotterdam!5e0!3m2!1snl!2snl!4v1624904710199!5m2!1snl!2snl" width="100%" height="150px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <p>
+      Adres: <br>
+      Coolsingelstraat 22 <br>
+      4234 TZ Rotterdam <br>
+      tel. 0612374421
+  </footer>
+</div><!-- wrapper -->
+</body>
+</html>
